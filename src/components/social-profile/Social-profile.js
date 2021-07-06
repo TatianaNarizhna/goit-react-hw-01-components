@@ -1,4 +1,5 @@
 import React from 'react';
+import defaultImg from '../static/default.jpg';
 
 const Profile = ({ name, tag, location, avatar, stats }) => {
   return (
@@ -26,6 +27,10 @@ const Profile = ({ name, tag, location, avatar, stats }) => {
       </ul>
     </div>
   );
+};
+
+Profile.defaultProps = {
+  avatar: defaultImg,
 };
 
 export default Profile;
