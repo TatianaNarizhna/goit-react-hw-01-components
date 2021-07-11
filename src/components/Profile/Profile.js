@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import s from './Social-profile.module.css';
+import s from './Profile.module.css';
 import defaultImg from '../static/default.jpg';
 
 const Profile = ({ name, tag, location, avatar, stats }) => {
